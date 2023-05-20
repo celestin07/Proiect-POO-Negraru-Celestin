@@ -12,9 +12,9 @@ care va sterge memoria alocată dinamic pentru a evita leak-urile,precum și ope
 
 -Nu in cele din urma,clasa HR,deși are structura mult mai simpla,este menită sa țină evidenta elementelor de bussines și management,precum numărul de angajați sau media salariilor.
 
--De asemenea,o clasa remarcabila,este clasa Produs,care este de fapt o interfata,din care se mostenesc 3 clase diferite:Pizza,Paste si Desert,clase ce au rolul sa suprascrie metodele pr virtuale din interfata.
+-De asemenea,o clasa remarcabila,este clasa Produs,care este de fapt o interfata,din care se mostenesc 3 clase diferite:Pizza,Paste si Desert,clase ce au rolul sa suprascrie metodele pur virtuale din interfata.
 
--Avem,de asemenea,situatii de polimorfism la executie,upcasting si downcasting,precum si o clasa custom de exceptii,ce extinde clasa std::exception.
+-Avem,de asemenea,situatii de polimorfism la executie,upcasting si downcasting,destructori virtuali in clasele de baza,precum si o clasa custom de exceptii,ce extinde clasa std::exception.
 
 -Se folosesc si containere stl,precum std::queue si std::string
 
